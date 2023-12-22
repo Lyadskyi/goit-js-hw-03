@@ -1,13 +1,9 @@
 // * Задача 2. Композиція масивів * //
 
 function makeArray(firstArray, secondArray, maxLength) {
-	let result = [];
-	let collection = firstArray.concat(secondArray); //['Mango', 'Poly', 'Ajax', 'Chelsea']
-	if (collection.length > maxLength) {
-		return result = collection.slice(0, maxLength);
-	} else {
-		return result;
-	}
+	const collection = firstArray.concat(secondArray); //['Mango', 'Poly', 'Ajax', 'Chelsea']
+	const result = collection.slice(0, maxLength);
+	return result;
 	}
 
 console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3)); // ["Mango", "Poly", "Ajax"]
