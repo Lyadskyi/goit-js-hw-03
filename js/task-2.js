@@ -1,7 +1,7 @@
 // * Задача 2. Композиція масивів * //
 
 function makeArray(firstArray, secondArray, maxLength) {
-	const collection = firstArray.concat(secondArray); //['Mango', 'Poly', 'Ajax', 'Chelsea']
+	const collection = firstArray.concat(secondArray);
 	const result = collection.slice(0, maxLength);
 	return result;
 	}

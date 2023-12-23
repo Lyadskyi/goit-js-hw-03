@@ -1,8 +1,8 @@
 // * Задача 1. Генератор slug * //
 
 function slugify(title) {
-	let symbols = title.toLowerCase();
-	let words = symbols.split(" ").join("-");
+	const symbols = title.toLowerCase();
+	const words = symbols.split(" ").join("-");
 	return words;
 	}
 
